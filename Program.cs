@@ -5,7 +5,7 @@
 23432 -> да
 */
 
-/* Решение
+/* Решение 1
 bool EqualsNumber(int Number1, int Number2)
 {
 
@@ -61,7 +61,7 @@ else
 }
 */
 
-/* Тесты
+/* Тесты 1
 PS D:\Home_Works\CS_HW_3> dotnet run
 Enter a five-digit number 14212
 No, number is't palindrom
@@ -79,6 +79,7 @@ A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
 
+/* Решение 2
 int InputN(string message)
 {
     Console.Write(message + " ");
@@ -105,3 +106,23 @@ double deltaz = Distanse(z1,z2);
 double result = Math.Sqrt(deltax*deltax+deltay*deltay+deltaz*deltaz);
 
 Console.Write("Растояние между точками A и B равно " + Math.Round(result,2));
+*/
+
+/* Тест 2
+PS D:\Home_Works\CS_HW_3> dotnet run
+Введите координату X точки A 3
+Введите координату Y точки A 6
+Введите координату Z точки A 8
+Введите координату X точки B 2
+Введите координату Y точки B 1
+Введите координату Z точки B -7
+Растояние между точками A и B равно 15,84
+PS D:\Home_Works\CS_HW_3> dotnet run
+Введите координату X точки A 7
+Введите координату Y точки A -5
+Введите координату Z точки A 0
+Введите координату X точки B 1
+Введите координату Y точки B -1
+Введите координату Z точки B 9
+Растояние между точками A и B равно 11,53
+/*
