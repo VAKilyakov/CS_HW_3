@@ -125,4 +125,40 @@ PS D:\Home_Works\CS_HW_3> dotnet run
 Введите координату Y точки B -1
 Введите координату Z точки B 9
 Растояние между точками A и B равно 11,53
-/*
+*/
+
+/* Задача 3
+Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+4
+1 - 1
+2 - 8
+3 - 27
+4 - 64
+*/
+
+/* Решение 3
+double Cube (double Number)
+{
+    return Math.Pow(Number,3);
+}
+
+Console.Write("Input number: ");
+double Number = Convert.ToDouble(Console.ReadLine());
+
+int Counter = 1;
+
+while (Counter < Number + 1)
+{
+    Console.WriteLine(Counter + " - " + Cube(Counter));
+    Counter++;
+}
+*/
+
+/* Тест 3
+PS D:\Home_Works\CS_HW_3> dotnet run
+Input number: 4
+1 - 1
+2 - 8
+3 - 27
+4 - 64
+*/
